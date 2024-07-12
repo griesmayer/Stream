@@ -36,6 +36,7 @@ public class TeasStream
         List<String> lines = Files.readAllLines(Path.of("shopping.txt"));
         lines.stream()
                 .forEach(element -> System.out.println(element));
+        System.out.println("================");
         Stream<String> lines2 = Files.lines(Path.of("shopping.txt"));
         lines2
                 .forEach(element -> System.out.println("sdfasfd " + element));
